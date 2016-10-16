@@ -1,0 +1,28 @@
+{
+  "name": "ligand-binding-utils",
+  "version": "0.1.0",
+  "description": "Utils to import and process ligand binding data",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bergos/ligand-binding-utils.git"
+  },
+  "keywords": [],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergos/ligand-binding-utils/issues"
+  },
+  "homepage": "https://github.com/bergos/ligand-binding-utils",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "rdf-ext": "^0.3.0"
+  },
+  "devDependencies": {
+    "standard": "^8.4.0"
+  }
+}
